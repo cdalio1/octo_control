@@ -156,7 +156,7 @@ class ControllerPlugin(octoprint.plugin.StartupPlugin,
     ##~~ Softwareupdate hook
     def get_update_information(self):
         return dict(
-            enclosure=dict(
+            controller=dict(
                 displayName="Octo Control",
                 displayVersion=self._plugin_version,
 
